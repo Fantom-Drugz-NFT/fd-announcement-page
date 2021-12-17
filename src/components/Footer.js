@@ -23,7 +23,7 @@ export default function Footer() {
     <Grid
       item
       style={{
-        backgroundColor: theme.palette.background.paper,
+        backgroundColor: theme.palette.background.default,
         borderRadius: "10px",
         margin: "auto",
         marginTop: "1em",
@@ -37,7 +37,7 @@ export default function Footer() {
         style={{
           borderRadius: "10px",
           position: "relative",
-          backgroundColor: theme.palette.background.paper,
+          backgroundColor: theme.palette.background.default,
         }}
       >
         <Toolbar style={{ margin: "auto" }}>

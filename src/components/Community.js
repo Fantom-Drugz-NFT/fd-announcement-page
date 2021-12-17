@@ -11,7 +11,7 @@ export default function Community() {
       sm={12}
       md={8}
       style={{
-        backgroundColor: theme.palette.background.paper,
+        backgroundColor: theme.palette.background.default,
         margin: "auto",
         marginTop: "1em",
         borderRadius: "10px",

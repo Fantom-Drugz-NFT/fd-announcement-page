@@ -7,10 +7,12 @@ import {
   Typography,
   Grid,
   CardActionArea,
+  useTheme,
 } from "@mui/material";
 
 export default function TeamCard({ teamMember }) {
   const { name, title, avatarUrl, link } = teamMember;
+  const theme = useTheme();
 
   const handleClick = () => {
     window.location.href = link;
@@ -21,7 +23,10 @@ export default function TeamCard({ teamMember }) {
       <Card sx={{ width: "100%", marginBottom: 2, boxShadow: 3 }}>
         <CardActionArea onClick={handleClick} alt={link} href={link}>
           <CardHeader
-            style={{ margin: "0" }}
+            style={{
+              margin: "0",
+              backgroundColor: theme.palette.background.paper,
+            }}
             avatar={
               <Avatar
                 src={avatarUrl}

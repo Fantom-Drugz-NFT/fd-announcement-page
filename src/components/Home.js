@@ -10,7 +10,7 @@ export default function Home() {
       sm={12}
       md={8}
       style={{
-        backgroundColor: theme.palette.background.paper,
+        backgroundColor: theme.palette.background.default,
         margin: "auto",
         marginTop: "2em",
         borderRadius: "10px",
@@ -19,7 +19,7 @@ export default function Home() {
     >
       <Box
         style={{
-          backgroundColor: theme.palette.background.paper,
+          backgroundColor: theme.palette.background.default,
           alignItems: "center",
           justifyContent: "center",
         }}
@@ -30,7 +30,7 @@ export default function Home() {
           alt="Fantom Drugz Logo"
           style={{
             display: "flex",
-            backgroundColor: theme.palette.background.paper,
+            backgroundColor: theme.palette.background.default,
             width: "80%",
             maxWidth: "30em",
             justifyContent: "center",
