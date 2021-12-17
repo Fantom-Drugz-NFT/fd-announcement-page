@@ -13,10 +13,10 @@ export default function Footer() {
   const theme = useTheme();
 
   const handleTwitterBtn = () => {
-    window.location.href = "https://twitter.com/fantomdrugznft";
+    window.open("https://twitter.com/fantomdrugznft", "_blank");
   };
   const handleDiscordBtn = () => {
-    window.location.href = "https://discord.gg/xZ4Ma4Yw";
+    window.open("https://discord.gg/wgu4trd49q", "_blank");
   };
 
   return (
