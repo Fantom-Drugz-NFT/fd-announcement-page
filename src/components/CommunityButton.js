@@ -19,7 +19,7 @@ export default function TeamCard({ teamMember }) {
   return (
     <Grid xs={12} sm={8} style={{ margin: "auto" }}>
       <Card sx={{ width: "100%", marginBottom: 2, boxShadow: 3 }}>
-        <CardActionArea onClick={handleClick}>
+        <CardActionArea onClick={handleClick} alt={link} href={link}>
           <CardHeader
             style={{ margin: "0" }}
             avatar={
