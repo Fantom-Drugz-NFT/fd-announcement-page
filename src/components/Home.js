@@ -1,6 +1,4 @@
 import * as React from "react";
-import { styled } from "@mui/material/styles";
-import IconButton from "@mui/material/IconButton";
 import { Grid, Typography, Box, useTheme } from "@mui/material";
 
 export default function Home() {

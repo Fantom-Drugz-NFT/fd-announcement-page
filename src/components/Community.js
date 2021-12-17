@@ -1,7 +1,5 @@
 import * as React from "react";
-import { styled } from "@mui/material/styles";
-import Button from "@mui/material/Button";
-import { Grid, Typography, Box, useTheme } from "@mui/material";
+import { Grid, Typography, useTheme } from "@mui/material";
 import CommunityButton from "./CommunityButton";
 
 export default function Community() {

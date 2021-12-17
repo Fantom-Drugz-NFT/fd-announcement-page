@@ -1,6 +1,4 @@
-import { useRef } from "react";
-import { Grid, CssBaseline, ThemeProvider } from "@mui/material";
-import { useTheme } from "@mui/material/styles";
+import { CssBaseline, ThemeProvider } from "@mui/material";
 
 // STATIC IMPORTS
 import DarkTheme from "../src/DarkTheme";

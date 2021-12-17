@@ -1,1 +1,1 @@
-# Fantom Drugz - Official Repository
+# Fantom Drugz - Announcement Page
